@@ -1,0 +1,39 @@
+#container {
+    text-align: right;
+}
+
+#header-menu-content li {
+    float: right;
+}
+
+#header-menu-content .sub-menu {
+    left: unset;
+    right: -9999%;
+}
+
+#header-menu-content li:hover>.sub-menu,
+#header-menu-content li:focus-within>.sub-menu {
+    right: unset;
+}
+
+blockquote {
+    border-width: 0 4px 0 0;
+    margin: 0 10px 0 0;
+}
+
+.screen-reader-text {
+    left: unset;
+    right: -9999%;
+}
+
+.sidebar li li li {
+    padding: 3px 10px 2px 0;
+}
+
+.sidebar li li li::before {
+    content: "\21b2  ";
+}
+
+.post-navigation .nav-next {
+    text-align: left;
+}
